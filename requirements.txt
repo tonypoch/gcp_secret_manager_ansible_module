@@ -1,0 +1,3 @@
+ansible
+google-cloud-secret-manager
+google_crc32c
