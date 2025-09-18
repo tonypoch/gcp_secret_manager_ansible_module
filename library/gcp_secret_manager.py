@@ -74,7 +74,7 @@ def run_module():
     result['value'] = payload
     result['labels'] = labels
     result['message'] = "All good"
-    result['create_time'] = create_time
+    result['create_time'] = create_time.isoformat()
     result['replication'] = replication
     result['etag'] = etag
     module.exit_json(**result)
